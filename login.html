@@ -1,16 +1,16 @@
 <meta charset="utf-8">
 <script>
 
-	var loginCadastrado = "Carlos";
-	var senhaCadastrada = "admin89";
+	const loginCadastrado = "Carlos";
+	const senhaCadastrada = "admin89";
 
-    var maximoTentativas = 3;
-    var tentativaAtual = 1;
+    let maximoTentativas = 3;
+    let tentativaAtual = 1;
 
     while(tentativaAtual <= maximoTentativas) {
 
-	var loginInformado = prompt("Informe seu login");
-	var senhaInformada = prompt("Informe sua senha");
+	const loginInformado = prompt("Informe seu login");
+	const senhaInformada = prompt("Informe sua senha");
 
 	if(loginCadastrado == loginInformado && senhaCadastrada == senhaInformada) {
 
